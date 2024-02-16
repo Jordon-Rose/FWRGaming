@@ -11,5 +11,5 @@ def minecraft():
     return render_template('minecraftserver.html')
 
 if __name__ == '__main__':
-    application.run(port=7777)
+    application.run(host="0.0.0.0", port=7777)
 
