@@ -6,7 +6,7 @@ application = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@application.route('/minecraft')
+@application.route('/minecraftserver')
 def minecraft():
     return render_template('minecraftserver.html')
 
